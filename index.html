@@ -5,24 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
 <style>
-    body{
+  mark {
+    background-color: #f7f5f5; 
+    color: rgb(14, 231, 231);            
+  }
+    @font-face {
+        font-family: "HeadingFont";
+        src: url("MinecraftTen-VGORe.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "BodyFont";
+        src: url("MinecraftRegular-Bmg3.otf") format("truetype");
+    }
+
+    body {
         background: linear-gradient(rgba(6, 137,228,0.6),rgba(46,173,166,0.6)), url( 'aero.png');
-       background-size: cover;
-       background-position: center;
-        height: 100vh;
-         margin: 0;
-         display: flex;
-            justify-content: center;
-            align-items: center;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-family: "BodyFont", sans-serif;
     }
     .glass-box{
         background: rgba(255, 255, 255, 0.3);
-        border:2px solid white;
+        border: 2px solid white;
         border-radius: 15px;
         padding: 30px;
         text-align: center;
         color: white;
         font-family: sans-serif;
+        width: min(900px, 90%);
+        box-sizing: border-box;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
     }
     .aero-image{
         position: absolute;
@@ -33,16 +54,43 @@
         top: 10%;
         left:10%;
     }
-    h1{
-        color:hsl(98, 65%, 41%); 
+    h1 {
+        color: hsl(184, 88%, 62%);
         font-size: 58px;
+        font-family: "HeadingFont", sans-serif;
+    }
+
+    h2 {
+        color: hsl(0, 16%, 96%);
+        text-align: center;
+        margin: 0;
+        font-family: "HeadingFont", sans-serif;
+    }
+
+    p {
+        color: silver;
+        text-align: center;
+        max-width: 800px;
+        padding: 0 20px;
+        margin: 0;
+        font-family: "BodyFont", sans-serif;
     }
 </style>
 </head>
 <body>
     <div class="glass-box">
-    <h1>About me ig^_^</h1>
-    <p>Welcome to my personal website. I'm passionate about web development and design. Feel free to explore and learn more about me!</p>
-</div>
+       <mark></mark> <h1>About me ig^_^</h1>
+        <p>Welcome to my personal website. I'm passionate about web development and design. Feel free to explore and learn more about me!</p></div></mark>
+    </div>
+
+    <div class="glass-box">
+        <h2>About meee</h2>
+        <p>hii yall im a 16yr old (atleast in 2 days from NOW-16.8.2026) average student who randomlly stumbelled upon this event while i was mindlessly doomscrolling reels im learning web development as a 6th subject in school so yea idk wht to say i live in chennai,India rn andd yea thts it ig idh much to say abt myself overall i feel like im a borin kid and i really want to change tht so im doin this rn i really hope tht i can learn something usefull</p>
+    </div>
+
+    <div class="glass-box">
+        <h2>My Goals</h2>
+        <p>I want to keep learning web development, build cool projects, and improve my design and coding skills every day.</p>
+    </div>
 </body>
 </html>
