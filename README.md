@@ -1,1 +1,1 @@
-# Portfolio
+hi this is my first project in hackclub stardance im really looking forward to do more. i had a lot of fun and learn so much doin this. this is the code to a basic static website which has a few lines about myself . i used a image as the page background , used 3 glass box for the words , used minecraft font so it looks cool .
